@@ -3,3 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#site_main{
+    background-color: white;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+
+}
+
+.col{
+    height: 50px;
+    width: 50%;
+    max-width: 900px;
+
+
+}
+
+.left{
+    float:left;
+    background-color: coral;
+}
+
+.right{
+    float:right;
+    background-color: aquamarine;
+}
+
+.hero{
+    height: 600px;
+    background-color: #B4D0E7;
+    ;
+}
+
+/* MAIN */
+
+.container_main{
+    background-color: blueviolet;
+    /* height: 1000px; */
+    margin-top: 50px;
+
+}
+
+.main_hero{
+    background-color: pink;
+    /* display: inline-block; */
+}
+
+/* 3 colonne centrali */
+.center{
+    height: 700px;
+    width: 25%;
+    margin: 90px 57px;
+
+}
+
+/* quandrato sotto le 3 colonne */
+.horizontal_text{
+    height: 300px;
+    width: 91.5%;
+    margin: 0px 57px;
+    
+}
+
+/* due colonne sole con img */
+
+.container_main2{
+    background-color: aliceblue;
+    margin-top: 50px;
+
+}
+
+.img_people{
+    height: 400px;
+    width: 46%;
+    margin-left: 4%;
+}
+
+.img_text{
+    height: 400px;
+    width: 46%;
+    background-color: lightsalmon;
+    margin: right 4%;
+}
+
+
+
