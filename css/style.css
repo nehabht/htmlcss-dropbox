@@ -8,6 +8,10 @@
     background-color: white;
 }
 
+.row{
+    width: 100%;
+}
+
 .row::after{
     content: "";
     display: table;
@@ -38,6 +42,26 @@
     background-color: #B4D0E7;
     ;
 }
+
+/* HEADER */
+
+a{
+    text-decoration: none;
+}
+
+ul.inline-list{
+    list-style: none;
+
+}
+
+ul.inline-list>li{
+    display: inline-block ;
+}
+
+
+
+
+
 
 /* MAIN */
 
