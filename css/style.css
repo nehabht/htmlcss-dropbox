@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -118,8 +118,65 @@ ul.menù_right{
 
 /* MAIN */
 
+
+.container_hero_text{
+    width: 80%;
+    padding-top: 60px;
+    margin: auto;
+
+}
+
+.container_hero_text>p{
+    font-size: 68px;
+    font-weight: 700;
+    margin:2rem 0rem 1rem
+}
+
+.container_hero{
+    width: 80%;
+    margin: auto;
+}
+
+.container_hero_left{
+    width: 50%;
+    padding-top: 60px;
+    float: left;
+
+}
+
+.container_hero_right{
+    width: 50%;
+    padding-top: 60px;
+    margin: auto;
+    float:left;
+
+}
+
+/* section{
+    float: left;
+} */
+
+
+.btn_main{
+    padding: 7.25px 19px;
+    background-color: #0061FF;
+    font-size: 14px;
+    color: white;
+    float: left;
+    margin-top: 35px;
+
+}
+
+/* .container_hero_right>img{
+    float:left
+} */
+
+
+
+
+
 .container_main{
-    width: 1100px;
+    width: 950px;
     margin: 10% auto;
     background-color: blueviolet;
 
@@ -135,73 +192,147 @@ ul.menù_right{
 } */
 
 
-.main_hero{
-    background-color: pink;
-    /* display: inline-block; */
-}
 
-/* 3 colonne centrali */
+
+/* 3 colonne centrali con riquadro */
 .center{
     height: 700px;
-    width: 25%;
-    margin: 0 45px;
+    width: 33.3%;
+    /* margin: 0 45px; */
 
 }
 
 /* quandrato sotto le 3 colonne */
-.horizontal_text{
+.rectangle{
     height: 300px;
     width: 91.5%;
     margin: 53px 46px;
     
 }
 
+
+
+
+
 /* due colonne sole con img */
 
 .container_main2{
-    background-color: aquamarine;
-    width: 1100px;
-    height: 400px;
-    margin: 115px auto;
+    width: 925px;
+    margin: 5% 18%;
 
 }
 
 .img_people{
-    height: 400px;
-    width: 50%;
+    height: 425px;
+    width: 56%;
 
+}
+
+.img_people{
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img_text{
-    height: 400px;
-    width: 50%;
-    background-color: lightsalmon;
+    height: 300px;
+    width: 44%;
+    /* background-color: lightsalmon; */
 
 }
+
+.img_text p:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    margin-left: 30px;
+}
+
+.img_text p{
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 25px;
+
+}
+
+.btn_main_partner{
+    padding: 6.25px 16px;;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    
+}
+
+
+
 
 /* griglia a 6 */
 
-.text_title{
-    background-color: rgb(128, 54, 54);
-    width: 1100px;
-    height: 200px;
-    margin: 0 auto;
 
-
-}
 
 .container_grid6{
-    background-color: aquamarine;
-    width: 1100px;
-    height: 840px;
-    margin: 10px auto;
+    /* background-color: aquamarine; */
+    width: 920px;
+    /* height: 840px; */
+    margin: 5% 18%;
 }
 
 .grid_six{
-    height: 400px;
-    width: 25%;
-    margin: 10px 45.5px;
+    /* height: 400px; */
+    width: 33.3%;
+    margin-bottom: 100px;
+
+
+    
 }
+
+.grid_six img{
+    width: 277px;
+}
+
+.grid_six p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.grid_six span{
+    font-size: 14px;
+
+}
+
+/* più di 500mila team */
+
+.text_title{
+    background-color: white;
+    width: 920px;
+    margin: 5% auto;
+}
+
+
+.text_title a{
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.text_title h1{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.text_title div{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+
 
 /* grigia a 4 */
 
@@ -238,28 +369,113 @@ ul.menù_right{
 
 }
 
+/* porta dropbox business */
+
+.levelup{
+    background-color: #B4D0E7;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+.levelup section{
+    color: brown;
+    padding-top: 120px;
+    display: inline-block;
+    width: 920px;
+    /* height: 200px; */
+    margin-left: 260px;
+
+
+
+}
+
+.levelup p{
+    float: left;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+.levelup .btn_main  {
+    background-color: white;
+    color: black;
+    float: right;
+    margin-top: 0;
+
+}
+
+
+
 /* domande frequenti */
 
 .questions{
-    background-color: rgb(225, 199, 230);
-    width: 1100px;
+    /* background-color: rgb(225, 199, 230); */
+    width: 920px;
     height: 600px;
     margin: 5% auto;
 }
 
 
+.questions h1{
+    font-size: 28px;
+    line-height: 50px;
+    padding: 32px 0;
+
+}
+
+.questions hr{
+    border: 1px solid lightgray;
+    border-bottom-width: inherit;
+}
+
+.questions p:first-child{
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 22px 0;
+
+}
+
+.questions span{
+    float: right;
+
+}
+
+
+
 /* footer */
 
+#site_footer{
+    background-color: black;
+}
+
 .footer{
-    background-color: aquamarine;
+    background-color: black;
     width: 1100px;
     height: 400px;
     margin: 10px auto;
+    color:rgb(206, 206, 206)
 }
 
 .col_footer{
     height: 400px;
     width: 210px;
     margin:0 5px;
-    background-color: white;
+    background-color: black;
+}
+
+.col_footer>div{
+    margin-top: 95px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.col_footer>p{
+    font-size: 15px;
+    line-height: 30px;
+
 }
