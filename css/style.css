@@ -46,7 +46,7 @@ body{
 }
 
 .hero{
-    height: 667px;
+    height: 754px;
     margin-bottom: 150px;
     background-color: #B4D0E7;
     ;
@@ -110,7 +110,14 @@ ul.menù_right{
 
 }
 
+.fa-arrow-down {
+    margin-top: 30px;
+    width: 300%;
+    font-size: 30px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 
+}
 
 
 
@@ -121,7 +128,7 @@ ul.menù_right{
 
 
 .container_hero_text{
-    width: 80%;
+    width: 81%;
     padding-top: 60px;
     margin: auto;
 
@@ -212,23 +219,62 @@ ul.menù_right{
     margin-right: 46px;
 
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
 }
 
 .center_last{
     height: 1035px;
     width: 280.8px;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 
 }
 
 .rectangle{
-    height: 300px;
-    width: 91.5%;
-    margin: 53px 46px;
+    height: 237px;
+    width: 100%;
+    margin: 55px 0;
+    border: 1px solid lightgrey;
     
 }
+
+.rectangle p{
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.rectangle span{
+    font-size: 13px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+
+.rectangle .plans_for{
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px solid lightgray;
+}
+
+.rectangle h2{
+    float: left;
+}
+
+.rectangle .btn_main{
+    padding: 5px 50px;
+    float: right;
+    margin: 0px;
+}
+
+.rectangle_plan 
+{
+    margin: 25px;
+}
+
 
 .plan_info_one{
     margin-left: 25px;
@@ -260,7 +306,7 @@ ul.menù_right{
 .plans_for{
     text-align: center;
     padding: 5%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .plans{
@@ -488,7 +534,7 @@ ul.menù_right{
     /* background-color: black; */
 }
 
-.square img{
+.square img {
     filter: invert(1);
     left: 15%;
     width: 70%;
@@ -497,25 +543,102 @@ ul.menù_right{
     transform: translate(10px, 10px);
 }
 
+.designit img{
+    filter: invert(1);
+    left: 15%;
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    transform: translate(10px, 10px);
+    
 
-.square1{
+}
+
+
+
+
+.arizona img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+
+}
+
+.topps img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+
+}
+
+.wordl img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+
+    
+}
+
+.hearts img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+
+
+}
+
+.lonely img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+
+}
+
+.clear img{
+    filter: invert(1);
+    left: 15%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translate(10px, 10px);
+}
+
+
+
+
+/* .square1{
     height: 50%;
     width: 50%;
     background-color: coral;
 
-}
+} */
 
 /* porta dropbox business */
 
 .levelup{
     background-color: #B4D0E7;
-    height: 400px;
+    height: 330px;
     margin: 0 auto;
 }
 
 
 .levelup section{
-    color: brown;
+    color: #61082B;
     padding-top: 120px;
     display: inline-block;
     width: 920px;
@@ -581,6 +704,11 @@ ul.menù_right{
 .questions span{
     float: right;
 
+}
+
+.fa-chevron-down{
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 
