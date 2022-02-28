@@ -157,6 +157,8 @@ ul.menù_right{
 } */
 
 
+
+
 .btn_main{
     padding: 7.25px 19px;
     background-color: #0061FF;
@@ -166,49 +168,153 @@ ul.menù_right{
     margin-top: 35px;
 
 }
-
-/* .container_hero_right>img{
-    float:left
-} */
-
-
-
-
-
-.container_main{
-    width: 950px;
-    margin: 10% auto;
-    background-color: blueviolet;
+.text_title_hero{
+    background-color: white;
+    width: 940px;
+    margin: 5% auto;
 
 
 }
-
-
-/* .container_main{
-    background-color: aquamarine;
-    width: 1100px;
-    height: 400px;
-    margin: 115px auto;
-} */
-
-
 
 
 /* 3 colonne centrali con riquadro */
-.center{
-    height: 700px;
-    width: 33.3%;
-    /* margin: 0 45px; */
+
+.container_main{
+    width: 936px;
+    margin: 10% auto;
+    /* background-color: blueviolet; */
+
 
 }
 
-/* quandrato sotto le 3 colonne */
+.center{
+    height: 1035px;
+    width: 280.8px;
+    margin-right: 46px;
+
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.center_last{
+    height: 1035px;
+    width: 280.8px;
+    background-color: white;
+    border: 1px solid grey;
+
+}
+
 .rectangle{
     height: 300px;
     width: 91.5%;
     margin: 53px 46px;
     
 }
+
+.plan_info_one{
+    margin-left: 25px;
+    margin-top:30px;
+    line-height: 40px;
+}
+
+
+.icon{
+    width: 10%;
+    float: left;
+}
+
+.plan_text{
+    width: 90%;
+    font-size: 13px;
+    float: left;
+}
+
+.long{
+    line-height: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px
+
+}
+
+
+
+.plans_for{
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid gray;
+}
+
+.plans{
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10%;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 20px;
+    
+}
+
+.plans_specs{
+    color: grey;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-top: 10px;
+
+
+}
+
+.btn_main_plans{
+    text-align: center;
+    margin-left: 25px;
+    width: 85%;
+    padding: 7.25px 19px;
+    background-color: #0061FF;
+    font-size: 14px;
+    color: white;
+    float: left;
+    margin-top: 50px;
+}
+
+.center a{
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.buy{
+    float: left;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.section_separator{
+    color: grey;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.plans2{
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    margin-left: 30px;
+    width: 100%;
+
+}
+
+
+
+
+
 
 
 
